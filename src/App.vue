@@ -1,8 +1,8 @@
 <template>
     <div id="application">
-    <div class="buttons">
-    <button class="sexy nord" v-for="(lang, i) in langs" :key="`Lang${i}`" @click="setLocale(lang)">{{ lang }}</button>
-    </div>
+        <div class="buttons">
+            <button class="button red" v-for="(lang, i) in langs" :key="`Lang${i}`" @click="setLocale(lang)">{{ lang }}</button>
+        </div>
         <Manjaro/>
     </div>
 </template>

@@ -6,7 +6,7 @@
     flex-wrap: wrap;
 }
 
-.buttons .sexy {
+.buttons .button {
     width: 60px;
     height: 30px;
     font-size: 12px;
@@ -20,7 +20,7 @@
     text-transform: uppercase;
 }
 
-.buttons .sexy:hover {
+.buttons .button:hover {
     font-size: 16px;
     border: none;
     color: #2E3440;
@@ -28,12 +28,12 @@
     transform: scale(1.1);
 }
 
-.nord {
+.red {
     border: 2px solid #BF616A;
     color: #BF616A;
 }
 
-.nord:hover {
+.red:hover {
     background-color: #BF616A;
     transition: all 0.3s ease-in-out;
 }
