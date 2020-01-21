@@ -1,0 +1,27 @@
+{
+    "header": {
+        "whyWeLove": "Why we love Manjaro",
+        "punctuality": "For punctuality",
+        "honesty": "For honesty",
+        "perfectionism": "For the pursuit of excellence",
+        "machiavellianism": "For machiavellianism",
+        "details": "For attention to details",
+        "tldr": "tl; dr"
+    },
+    "text": {
+        "TLS1": "They had a TLS certificate expire, and they did not come up with anything better than to advise users to roll back their system clock.",
+        "TLS2": "Then the certificate expired again.",
+        "TLS3": "After having the certs expire two times, they've learned their lesson and never let it happen again. (No)",
+        "purge": "Instead of admitting to their own mistakes, they just removed all mentions about these incidents. (That is why all links above are to web.archive.org)",
+        "script": "Continuous winner of «The Hackiest Update Script of the Year».",
+        "vulnerability": "With this very same script they achieved the critical vulnerability in the system. Stellar as always.",
+        "partialUpdates": "The Manjaro Team suggests users to perform a partial upgrade which are unsupported and can end up breaking your system.",
+        "dbLock": "What about deleting the package database lock file in the middle of the update?",
+        "rmModules": "The system update script runs rm on the lockfile mid-transaction.",
+        "pacmanGrep": "The script also runs pacman -Q | grep when pacman already natively supports querying for packages.",
+        "install": "If you considering using Manjaro because you want to use Arch Linux, you should install Arch Linux. Make sure to only follow the official installation guide, and not any other guide, article, or youtube video you find.",
+        "rolling": "If you just want a rolling release distro, or you don't like Arch Linux, you can checkout OpenSUSE Tumbleweed.",
+        "stable": "If you want a beginner friendly and stable distro, you should use a Long Term Support distro. You can checkout any Ubuntu flavour or OpenSUSE Leap."
+    },
+    "ref": "Reference"
+}

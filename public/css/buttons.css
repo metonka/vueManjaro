@@ -1,0 +1,39 @@
+.buttons {
+    height: 30px;
+    display: flex;
+    justify-content: space;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.buttons .sexy {
+    width: 60px;
+    height: 30px;
+    font-size: 12px;
+    margin: 10px;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    transition: .5s;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.buttons .sexy:hover {
+    font-size: 16px;
+    border: none;
+    color: #2E3440;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.nord {
+    border: 2px solid #BF616A;
+    color: #BF616A;
+}
+
+.nord:hover {
+    background-color: #BF616A;
+    transition: all 0.3s ease-in-out;
+}

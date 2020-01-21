@@ -1,28 +1,27 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div id="application">
+    <div class="buttons">
+    <button class="sexy nord" v-for="(lang, i) in langs" :key="`Lang${i}`" @click="setLocale(lang)">{{ lang }}</button>
+    </div>
+        <Manjaro/>
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Manjaro from "./components/Manjaro";
 
 export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
+    name: 'application',
+    components: {
+        Manjaro
+    },
+    data () {
+    return { langs: ['en', 'ru'] }
+    },
+    methods: {
+        setLocale(locale) {
+            this.$i18n.locale = locale
+        }
+    }
 }
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
